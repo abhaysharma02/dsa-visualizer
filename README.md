@@ -1,24 +1,25 @@
 # Bubble Sort Visualizer
 
-An interactive web application that visualizes the Bubble Sort algorithm through animated comparisons and swaps.
+An interactive web application that visualizes the Bubble Sort algorithm through animated comparisons, swaps, and real-time execution statistics.
 
 ## Features
 
 - Generate random arrays
-- Select array size
+- Select array size (5, 10, 15, or 20)
 - Visualize Bubble Sort step by step
 - Highlight elements being compared
 - Highlight sorted elements
 - Track comparisons and swaps
 - Choose sorting speed
-- Analyze the current input case
-- Display time and space complexity
+- Detect the current input case
+- Display current time complexity
+- Display theoretical time and space complexity
 - Responsive user interface
 
 ## Complexity
 
 | Case | Time Complexity |
-|------|-----------------|
+| --- | --- |
 | Best Case | O(n) |
 | Average Case | O(n²) |
 | Worst Case | O(n²) |
@@ -37,14 +38,15 @@ An interactive web application that visualizes the Bubble Sort algorithm through
 
 Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order.
 
-The visualizer shows:
+The visualizer provides real-time information about:
 
 - Current comparison
 - Swap operations
 - Number of comparisons
 - Number of swaps
 - Current input case
-- Time complexity
+- Current time complexity
+- Overall algorithm complexity
 
 ## Run Locally
 
