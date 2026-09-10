@@ -1,16 +1,54 @@
-# React + Vite
+# Bubble Sort Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application that visualizes the Bubble Sort algorithm through animated comparisons and swaps.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate random arrays
+- Select array size
+- Visualize Bubble Sort step by step
+- Highlight elements being compared
+- Highlight sorted elements
+- Track comparisons and swaps
+- Choose sorting speed
+- Analyze the current input case
+- Display time and space complexity
+- Responsive user interface
 
-## React Compiler
+## Complexity
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Case | Time Complexity |
+|------|-----------------|
+| Best Case | O(n) |
+| Average Case | O(n²) |
+| Worst Case | O(n²) |
 
-## Expanding the ESLint configuration
+**Space Complexity:** O(1)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## How It Works
+
+Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order.
+
+The visualizer shows:
+
+- Current comparison
+- Swap operations
+- Number of comparisons
+- Number of swaps
+- Current input case
+- Time complexity
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abhaysharma02/dsa-visualizer.git
